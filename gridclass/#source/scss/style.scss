@@ -1,0 +1,41 @@
+@import "reset.scss";
+@font-face{
+	font-family: "Proxima nova";
+	src: url(/fonts/ProximaNova-Regular.ttf) format(truetype);
+	font-weight: normal;
+}
+@font-face{
+	font-family: "Proxima nova";
+	src: url(/fonts/ProximaNova-Bold.ttf) format(truetype);
+	font-weight: bold;
+}
+
+body{
+	margin: 0;
+}
+.container {
+	// width: 660px;
+	// fraction;
+	display: grid;
+	// grid-template-columns: 70px repeat(3, 20%);
+	// grid-template-columns: minmax(70px , 150px) 2fr 2f max-content min-content;
+	grid-template-columns: repeat( auto-fill, minmax(100px, 200px));
+	grid-template-rows: 100px 100px 50px;
+	// grid-column-gap: 5px ;
+	// grid-row-gap: 10px;
+	grid-gap: 15px;
+
+	.item {
+		// width: 50px;
+		padding: 15px;
+		border: 1px solid #000;
+		border-radius: 6px;
+		div{
+			background-color: tomato;
+			margin: 5px;
+			display: flex;
+		}
+		
+	}
+	
+}

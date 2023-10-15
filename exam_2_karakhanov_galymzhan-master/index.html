@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:regular" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700,800" rel="stylesheet" />
+	<title>StarWars SASS</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header">
+
+			<div class="header__todo">
+				<a class="header__logo" href="#"><img src="./img/Logo.png" alt="logo"></a>
+				<nav class=" menu">
+					<ul class="menu__list">
+						<li><a class="menu__link" href="#">On sale</a></li>
+						<li><a class="menu__link" href="#">For rent</a></li>
+						<li><a class="menu__link" href="#">New Residential Project</a></li>
+						<li><a class="menu__link" href="#">Property News</a></li>
+					</ul>
+					<div class="hamburger-menu">
+						<input id="menu__toggle" type="checkbox">
+						<label class="menu__btn" for="menu__toggle">
+							<span></span>
+						</label>
+						<ul class="menu__box">
+							<li><a class="menu__item" href="#"><img src="./img/Logo.png" alt="logo"></a></li>
+							<li><a class="menu__item" href="#">On sale</a></li>
+							<li><a class="menu__item" href="#">For rent</a></li>
+							<li><a class="menu__item" href="#">New Residential Project</a></li>
+							<li><a class="menu__item" href="#">Property News</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="header__item">
+				<h1 class="header__title">Quality home services, on demand</h1>
+				<p class="header__text">Experienced, hand-picked Professionals to serve you at your doorstep</p>
+			</div>
+
+		</header>
+		<main class="main">
+			<div class="content">
+				<div class=" card content__card">
+					<div class="card__items">
+						<div class="card__item">
+							<img class="card__img" src="./img/interier-ladder.jpg" alt="">
+							<div class="card__text">
+								<a href="#"><img src="./img/icon/right.svg" alt=""></a>
+								<p>Same great quality. New lower prices.</p>
+							</div>
+						</div>
+
+						<div class="card__item">
+							<img class="card__img" src="./img/kichen.jpg" alt="">
+							<div class="card__text">
+								<div>
+									<a href="#"><img src="./img/icon/right.svg" alt=""></a>
+									<p>Everyday Essentials, High quality affordable </p>
+								</div>
+							</div>
+						</div>
+						<div class="card__item">
+							<img class="card__img" src="./img/Hall.jpg" alt="">
+							<div class="card__text">
+								<a href="#"><img src="./img/icon/right.svg" alt=""></a>
+								<p>Join the makeover journey </p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section class="content__why-us">
+					<h5>Why HOUSESALE Company?</h5>
+					<aside class="sidebar">
+
+						<div class="sidebar__items">
+							<div class="sidebar__item">
+								<a href="#"><img src="./img/microphone.png" alt=""></a>
+								<div>
+									<h3>Transparent pricing</h3>
+									<p>See fixed prices before you book. No hidden charges.</p>
+								</div>
+							</div>
+							<div class="sidebar__item">
+								<a href="#"><img src="./img/pipple-hablar.png" alt=""></a>
+								<div>
+									<h3>Experts only</h3>
+									<p>Our professionals are well trained and have on-job expertise.</p>
+								</div>
+							</div>
+							<div class="sidebar__item">
+								<a href="#"><img src="./img/dos-pipple.png" alt=""></a>
+								<div>
+									<h3>Fully equipped</h3>
+									<p>We bring everything needed to get the job done well.</p>
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__icon">
+							<div class="box-yellow"></div>
+							<img src="./img/exterior-boss.jpg" alt="">
+						</div>
+
+					</aside>
+
+
+				</section>
+
+				<section class="content__submit submit">
+					<h2 class="submit__title">Book professionals from your phone</h2>
+					<p class="submit__text">Enter your mobile number to get the professionals help</p>
+					<div class="submit__button">
+						<div>
+							<a href="#"><img src="./img/icon/flag.svg" alt=""></a>
+							<button>Send</button>
+						</div>
+					</div>
+				</section>
+
+				<section class="content__gallary gallary">
+					<h2 class="gallary__title">More ideas and inspiration</h2>
+					<div class="gallary__items">
+						<div class="gallary__item">
+							<img src="./img/Exterior-1.jpg" alt="">
+						</div>
+						<div class="gallary__item">
+							<img src="./img/Exterior-2-5-8.jpg" alt="">
+						</div>
+						<div class="gallary__item">
+							<img src="./img/Exterior-3.jpg" alt="">
+						</div>
+						<div class="gallary__item">
+							<img src="./img/Exterior-4.jpg" alt="">
+						</div>
+						<div class="gallary__item">
+							<img src="./img/Exterior-2-5-8.jpg" alt="">
+						</div>
+						<div class="gallary__item">
+							<img src="./img/Exterior-6.jpg" alt="">
+						</div>
+						<div class="gallary__item">
+							<img src="./img/Exterior-7.jpg" alt="">
+						</div>
+						<div class="gallary__item">
+							<img src="./img/Exterior-2-5-8.jpg" alt="">
+						</div>
+					</div>
+
+				</section>
+
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__menu">
+					<ul>
+						<li><a href="#">Delivery Service</a></li>
+						<li><a href="#">Assembly Service</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Near Me</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Gift Cards</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="line"></div>
+
+				<div class="footer__item item">
+					<div class="footer__title">Serving in</div>
+					<div class="item__list">
+						<div class="item__link">
+							<div class="item__title">Australia</div>
+							<ul class="Australia">
+								<li><a href="#">Sydney</a> </li>
+								<li><a href="#">Albury</a></li>
+								<li><a href="#">Queensland</a></li>
+								<li><a href="#">Adelaide</a> </li>
+								<li><a href="#">Hobart</a></li>
+								<li><a href="#">Darwin</a></li>
+								<li><a href="#">Canberra</a></li>
+								<li><a href="#">Perth</a></li>
+								<li><a href="#">Melbourne</a></li>
+							</ul>
+						</div>
+
+						<div class="item__link">
+							<div class="item__title">UAE</div>
+							<ul class="UAE">
+								<li><a href="#">Dubai</a></li>
+								<li><a href="#">Abu Dhabi</a></li>
+								<li><a href="#">Sharjah</a></li>
+								<li><a href="#">Ajman</a></li>
+								<li><a href="#">Al Ain</a></li>
+							</ul>
+						</div>
+
+						<div class="item__link">
+							<div class="item__title">USA</div>
+							<ul class="USA">
+								<li><a href="#">New York</a></li>
+								<li><a href="#">Los Angeles</a></li>
+								<li><a href="#">Chicago</a></li>
+								<li><a href="#">Houston</a></li>
+								<li><a href="#">Philadelphia</a></li>
+								<li><a href="#">San Diego</a></li>
+								<li><a href="#">Washington</a></li>
+								<li><a href="#">Boston</a></li>
+								<li><a href="#">Oklahoma City</a></li>
+								<li><a href="#">Las Vegas</a></li>
+							</ul>
+						</div>
+
+						<div class="item__link">
+							<div class="item__title">Maxico</div>
+							<ul class="Maxico">
+								<li><a href="#">Mexico City</a></li>
+								<li><a href="#">Ecatepec</a></li>
+								<li><a href="#">Guadalajara</a></li>
+								<li><a href="#">Puebla City</a> </li>
+								<li><a href="#">Ciudad Juárez</a></li>
+
+							</ul>
+						</div>
+
+						<div class="line"></div>
+
+						<div class="buttom">
+							<div> <a href="#"><img src="./img/Logo.png" alt=""></a></div>
+							<div class="buttom__text">© 2021 Housesale Technologies Ltd.</div>
+							<div class="buttom__text">1760 Dancing Dove Lane, New York, USA</div>
+							<div class="buttom__text">sales@housesales.com</div>
+							<div><a href="#"><img src="./img/google.png" alt=""></a></div>
+							<div> <a href="#"><img src="./img/apple.png" alt=""></a></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+		</footer>
+	</div>
+
+</body>
+
+</html>

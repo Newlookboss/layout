@@ -1,0 +1,17 @@
+@import "reset.scss";
+@import "path_file.scss";
+@import "butter.scss";
+
+// @include _xs,sm,md,lg,xl,xxl.
+// @extend %burger;
+.header {
+	.hamburger-menu {
+		opacity: 0;
+		@include md {
+			opacity: 1;
+	}
+	}
+	@extend %burger;
+
+
+}
